@@ -1,0 +1,59 @@
+body{margin:0px;padding:0px;}
+.my_header iframe ,.my_footer iframe {
+    width:100%;
+}
+.my_footer iframe{
+    height:23rem;
+}
+@media screen and (max-width: 991px){
+    .my_footer iframe{
+        height:40rem;
+    }
+    .my_footer{margin-top:1.5rem;}
+}
+.my_footer{margin-top:3rem;}
+/*注册*/
+.header_login{
+    position: absolute;
+    top:135px;
+    right:200px; 
+    width:400px;
+    height: 370px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header_login_yemian div{
+    margin:10px;
+}
+.header_login h2{
+    text-align: left;
+    margin-left: 30px;
+    color:#fff
+}
+.header_login span {
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 96px;
+}
+.header_login_zhuce1{
+    color:#fff;
+    text-decoration: none;
+}
+#header_login_zhuce{
+    width:150px;
+    height:35px;
+    margin:10px;
+    margin:10px auto;
+    padding: 0;
+}
+.header_login button{
+    width:250px;
+    height:50px;
+    border:none;
+    background: #4f8dfe;
+    margin-top:15px;
+    color:#fff;
+    font-size: 16px;
+
+}

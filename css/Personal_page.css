@@ -1,0 +1,95 @@
+body{margin:0px;padding:0px;font-size: 12px;}
+.my_header iframe ,.my_footer iframe {
+    width:100%;
+}
+.my_footer iframe{
+    height:23rem;
+}
+@media screen and (max-width: 991px){
+    .my_footer iframe{
+        height:40rem;
+    }
+    .my_footer{margin-top:1.5rem;}
+}
+.my_footer{margin-top:3rem;}
+/*个人页面*/
+.memmain{
+    width:1190px;
+    display: block;
+    border:1px solid #f0f0f0;
+    margin:0 auto;
+}
+.memmain:after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.memmain-left{
+    float: left;
+    width:180px;
+}
+.memain-ul{
+    width:180px;
+    list-style: none;
+    background: #f0f0f0;
+    padding: 0px;
+    margin:0px;
+    height:638px;
+    
+}
+.memain-ul li{
+    border-right:1px solid #909090;
+    border-bottom:1px solid #909090;
+}
+.memain-ul li>a{
+    display:inline-block;
+    margin:15px 53px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000
+}
+#memain-ziliao{
+    background: #ffffff;
+    border-right:none;
+}
+/*有边框*/
+.memmain-right{
+    width:940px;
+    float: left;;
+    margin:0 32px;
+}
+.memain-top-z{
+    margin:10px auto;
+}
+.memain-top-zl{
+    height:38px;
+    background:#f0f0f0;
+    margin:10px auto;
+}
+.memain-top-zl span{
+    line-height: 38px;
+    margin-left: 10px;
+}
+.memain-top-ul{
+    list-style: none;
+    margin-left: 50px;
+}
+.memain-top-ul li{
+   margin-bottom: 30px;
+   border-bottom:1px solid #f0f0f0;;
+}
+.memain-top-ul li span{
+    display: inline-block;
+    width:55px;
+    margin-bottom:15px;
+ }
+ .memain-top-ul li button{
+    width:100px;
+    height:35px;
+    margin-left:30px;
+    color:#ffffff;
+    background: #ed3029;
+    font-weight: bold;
+    border:none;
+    margin-bottom:15px;
+ }
